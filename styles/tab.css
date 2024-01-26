@@ -12,4 +12,15 @@
     .simple-banner-container{
         flex-direction: column-reverse;
     }
+    .gamer-container {
+        flex-direction: column;
+    }
+
+    .gamer-img img {
+        width: 100%;
+    }
+
+    .gamer-content {
+        text-align: center;
+    }
 }

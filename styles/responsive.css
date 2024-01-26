@@ -1,13 +1,35 @@
 @media screen and (max-width:576px) {
-    .nav-container{
+    .nav-container {
         flex-direction: column;
     }
-    .nav-content{
+
+    .nav-content {
         width: 100%;
         padding: 0;
     }
-    .simple-banner-container{
+
+    .simple-banner-container {
+        align-items: center;
+    }
+
+    .simple-banner-content h1 {
+        align-items: center;
+        font-size: 4rem;
+    }
+
+    .simple-banner-container {
         flex-direction: column-reverse;
     }
-  
+
+    .gamer-container {
+        flex-direction: column;
+    }
+
+    .gamer-img img {
+        width: 100%;
+    }
+
+    .gamer-content {
+        text-align: center;
+    }
 }
