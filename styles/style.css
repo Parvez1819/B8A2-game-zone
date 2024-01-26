@@ -8,16 +8,22 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
+body {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+}
+
 /* header section styles starts here */
 .header-section {
-    max-width: 1400px;
-    margin: 0 auto;
+    background: #fff;
+
 }
 
 .nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 .nav-header {
@@ -42,12 +48,14 @@ body {
 #gamer {
     color: #FF42A5;
 }
-.nav-content{
+
+.nav-content {
     width: 30%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .nav-content a {
     text-decoration: none;
     font-size: 1.1rem;
@@ -59,9 +67,72 @@ body {
 #follow-us {
     padding: 20px 25px;
     display: flex;
-    /* justify-content: space-around; */
     align-items: center;
     gap: 5px;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
+}
+
+/* header styles ends here */
+/* simple banner styles starts here */
+.simple-banner-section {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.simple-banner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.simple-banner-content h2 {
+    color: #0B0223;
+    font-size: 3rem;
+    text-align: left;
+    font-weight: 600;
+}
+
+.simple-banner-content h1 {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 6rem;
+    text-align: left;
+    font-weight: 800;
+}
+
+.simple-banner-content p {
+    color: #534C64;
+    font-size: 1.2rem;
+    text-align: left;
+    font-weight: 500;
+}
+.simple-banner-content p i{
+    padding: 15px;
+}
+.banner-btn{
+    display: flex;
+    gap: 25px;
+}
+.banner-btn .sign-in-btn{
+    background: #FF42A5;
+    padding: 20px 40px ;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.banner-btn .go-btn{
+    background: #4EC5F7;
+    padding: 20px 40px ;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.simple-banner-img img{
+    width: 100%;
 }

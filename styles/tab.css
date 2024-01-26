@@ -1,9 +1,15 @@
-@media screen and (min-width:576px) and (max-width:992pc){
+@media screen and (min-width:576px) and (max-width:992px){
     .nav-container{
         flex-direction: column;
     }
     .nav-content{
         width: 100%;
         padding: 0;
+    }
+    .simple-banner-container{
+        align-items: center;
+    }
+    .simple-banner-container{
+        flex-direction: column-reverse;
     }
 }
