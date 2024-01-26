@@ -108,74 +108,126 @@ body {
     text-align: left;
     font-weight: 500;
 }
-.simple-banner-content p i{
+
+.simple-banner-content p i {
     padding: 15px;
 }
-.banner-btn{
+
+.banner-btn {
     display: flex;
     gap: 25px;
 }
-.banner-btn .sign-in-btn{
+
+.banner-btn .sign-in-btn {
     background: #FF42A5;
-    padding: 20px 40px ;
+    padding: 20px 40px;
     border: none;
     border-radius: 20px;
     color: #fff;
     font-size: 1.1rem;
     font-weight: 600;
 }
-.banner-btn .go-btn{
+
+.banner-btn .go-btn {
     background: #4EC5F7;
-    padding: 20px 40px ;
+    padding: 20px 40px;
     border: none;
     border-radius: 20px;
     color: #fff;
     font-size: 1.1rem;
     font-weight: 600;
 }
-.simple-banner-img img{
+
+.simple-banner-img img {
     width: 100%;
 }
+
 /* gamer section styles starts here */
-.gamer-section{
+.gamer-section {
     max-width: 1400px;
     margin: 0 auto;
 }
-.gamer-container{
+
+.gamer-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .gamer-content {
     text-align: right;
 }
-.gamer-content h1{
+
+.gamer-content h1 {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 3rem;
-    font-weight: 700; 
+    font-weight: 700;
 }
-.gamer-content p{
+
+.gamer-content p {
     color: #534C64;
     font-size: 18px;
     font-weight: 400;
 }
-.know-more-btn{
+
+.know-more-btn {
     background: #FF42A5;
-    padding: 20px 40px ;
+    padding: 20px 40px;
     border: none;
     border-radius: 20px;
     color: #fff;
     font-size: 1.1rem;
     font-weight: 600;
 }
-.gamer-content h4{
- color:    #534c64d5;
- font-size: 1rem;
+
+.gamer-content h4 {
+    color: #534c64d5;
+    font-size: 1rem;
 }
-.gamer-content h3{
+
+.gamer-content h3 {
     color: #534C64;
     font-size: 1.5rem;
 }
+
 /* gamer section simple banner styles ends here */
+.online-game-container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.online-card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.online-game-container h1 {
+    color: #0B0223;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.online-game-container h1 span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.online-game-container p{
+    color: #534C64;
+    font-size: 1.15rem;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.card {
+    width: 300px;
+}
+.card p{
+    color: #534C64;
+    font-weight: 500;
+    font-size: 1.25rem;
+    text-align: center;
+}
