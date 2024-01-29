@@ -1,11 +1,13 @@
 @media screen and (max-width:576px) {
-    .nav-container {
+   
+    .nav-container, .nav-content {
         flex-direction: column;
     }
 
     .nav-content {
         width: 100%;
         padding: 0;
+        gap: 25px;
     }
 
     .simple-banner-container {
@@ -21,7 +23,7 @@
         flex-direction: column-reverse;
     }
 
-    .gamer-container {
+    .gamer-container , .play-instant-container{
         flex-direction: column;
     }
 
@@ -35,4 +37,27 @@
     .online-card-container{
         grid-template-columns: repeat(1,1fr);
     }
+    .play-instant-container, .play-instant-content{
+        margin: 0;
+    }
+    .play-instant-content p{
+        width: 100%;
+    }
+    .play-instant-content p{
+        width: 100%;
+    }
+    .play-instant-img{
+        width: 100%;
+        margin: 0;
+    }
+    .play-instant-img .main-img {
+        width: 100%;
+        padding: 50px;
+    }
+    .play-instant-img .small-img{
+        width: 150px;
+        bottom: 150px;
+        right: -2px;
+    }
+
 }

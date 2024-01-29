@@ -1,18 +1,24 @@
-@media screen and (min-width:576px) and (max-width:992px){
-    .nav-container{
+@media screen and (min-width:576px) and (max-width:992px) {
+    .nav-container  {
         flex-direction: column;
     }
-    .nav-content{
+
+    .nav-content {
         width: 100%;
         padding: 0;
+        gap: 25px;
     }
-    .simple-banner-container{
+
+    .simple-banner-container {
         align-items: center;
     }
-    .simple-banner-container{
+
+    .simple-banner-container {
         flex-direction: column-reverse;
     }
-    .gamer-container {
+
+    .gamer-container,
+    .play-instant-container {
         flex-direction: column;
     }
 
@@ -23,10 +29,34 @@
     .gamer-content {
         text-align: center;
     }
-    .online-card-container{
-        grid-template-columns: repeat(2,1fr);
+
+    .online-card-container {
+        grid-template-columns: repeat(2, 1fr);
     }
-    .card img{
+
+    .card img {
         width: 300px;
+    }
+
+    .play-instant-container,
+    .play-instant-content {
+        text-align: center;
+        margin: 0%;
+    }
+
+    .play-instant-content p {
+        width: 100%;
+    }
+
+    .play-instant-img {
+        width: 100%;
+        padding: 80px;
+        margin: 0;
+    }
+
+    .play-instant-img .small-img {
+        width: 230px;
+        bottom: 170px;
+        right: 220px;
     }
 }

@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Work+Sans:wght@400;500;600;700;800&display=swap');
@@ -193,6 +195,7 @@ body {
 }
 
 /* gamer section simple banner styles ends here */
+/* online game container styles starts here */
 .online-game-container {
     max-width: 1400px;
     margin: 0 auto;
@@ -230,4 +233,47 @@ body {
     font-weight: 500;
     font-size: 1.25rem;
     text-align: center;
+}
+/* online game container styles ends here */
+.play-instant-section{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.play-instant-container{
+    margin-top: 200px;
+    display: flex;
+    align-items: safe;
+    justify-content: space-between;
+}
+.play-instant-content{
+    margin-top: 150px;
+}
+.play-instant-content h2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 3rem;
+}
+.play-instant-content h2 span{
+    color:   #F948B2 ;
+}
+
+.play-instant-content p{
+    text-align: center;
+    color: #534C64;
+    width: 450px;
+    font-size: 1.125rem;
+    font-weight: 400px ;
+}
+.play-instant-img{
+   width: 40%;
+   margin-left: 10px;
+}
+.main-img{
+    width: 100%;
+}
+.small-img{
+    width: 310px;
+    position: relative;
+    bottom: 250px;
+    right: 160px;
 }
