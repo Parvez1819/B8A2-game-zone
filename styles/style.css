@@ -379,7 +379,7 @@ body {
 }
 
 .career-img img {
-    object-fit: cover;
+    width: 100%;
 }
 
 /* the game banner section styles starts here */
