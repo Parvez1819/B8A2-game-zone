@@ -1,6 +1,7 @@
 @media screen and (max-width:576px) {
-   
-    .nav-container, .nav-content {
+
+    .nav-container,
+    .nav-content {
         flex-direction: column;
     }
 
@@ -22,55 +23,85 @@
     .simple-banner-container {
         flex-direction: column-reverse;
     }
-.online-card-container{
-    text-align: center;
-}
-    .gamer-container , .play-instant-container, .online-game-anywhere-container, .career-container{
+
+    .online-card-container {
+        text-align: center;
+    }
+
+    .gamer-container,
+    .play-instant-container,
+    .online-game-anywhere-container,
+    .career-container {
         flex-direction: column;
     }
 
-    .gamer-img img, .career-img img, .card {
+    .gamer-img img,
+    .career-img img,
+    .card {
         width: 100%;
+        padding: 10px;
+    }
+
+    .card img {
+        width: 100%;
+        height: 400px;
     }
 
     .gamer-content {
         text-align: center;
     }
-    .online-card-container{
-        grid-template-columns: repeat(1,1fr);
+
+    .online-card-container {
+        grid-template-columns: repeat(1, 1fr);
     }
-    .play-instant-container, .play-instant-content, .online-game-anywhere-content{
+
+    .play-instant-container,
+    .play-instant-content,
+    .online-game-anywhere-content {
         margin: 0;
     }
-    .play-instant-content h2, .online-game-anywhere-content h2, .online-game-anywhere-img, .career-img{
+
+    .play-instant-content h2,
+    .online-game-anywhere-content h2,
+    .online-game-anywhere-img,
+    .career-img {
         width: 100%;
     }
-    .play-instant-content p, .online-game-anywhere-content p{
+
+    .play-instant-content p,
+    .online-game-anywhere-content p {
         width: 100%;
     }
-    .play-instant-img{
+
+    .play-instant-img {
         width: 100%;
         margin: 0;
     }
-    .play-instant-img .main-img, .online-game-anywhere-img .rectangle67 {
+
+    .play-instant-img .main-img,
+    .online-game-anywhere-img .rectangle67 {
         width: 100%;
         padding: 50px;
     }
-    .play-instant-img .small-img{
+
+    .play-instant-img .small-img {
         width: 150px;
         bottom: 150px;
         right: -2px;
     }
+
     .online-game-anywhere-img .rectangle78 {
         width: 150px;
         position: relative;
         bottom: 150px;
         left: 200px;
     }
-    .career-container{
+
+    .career-container {
         padding: 20px;
     }
-    .career-content{
+
+    .career-content {
         text-align: center;
         width: 100%;
     }
