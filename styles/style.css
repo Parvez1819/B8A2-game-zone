@@ -52,7 +52,7 @@ body {
 }
 
 .nav-content {
-    width: 30%;
+    width: 45%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -63,7 +63,7 @@ body {
     font-size: 1.1rem;
     font-weight: 500;
     color: #3C354F;
-    padding-right: 20px;
+    margin-right: 20px;
 }
 
 #follow-us {
@@ -417,9 +417,14 @@ body {
     font-size: 1.125rem;
 }
 
-#third-game-card {
+.the-game-card:hover {
     border: 1.5px solid #F948B2;
     border-radius: 48px;
+   
+    
+}
+.the-game-card p:hover {
+    color: #FF42A5;
 }
 
 /* footer styles starts here */

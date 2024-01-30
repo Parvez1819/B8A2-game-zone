@@ -22,7 +22,7 @@
         flex-direction: column;
     }
 
-    .gamer-img img ,  .online-game-anywhere-img{
+    .gamer-img img ,  .online-game-anywhere-img, .card{
         width: 100%;
     }
 

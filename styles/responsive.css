@@ -29,7 +29,7 @@
         flex-direction: column;
     }
 
-    .gamer-img img, .career-img img {
+    .gamer-img img, .career-img img, .card {
         width: 100%;
     }
 
