@@ -219,86 +219,264 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.online-game-container p{
+
+.online-game-container p {
     color: #534C64;
     font-size: 1.15rem;
     text-align: center;
     padding-bottom: 40px;
 }
+
 .card {
     width: 300px;
 }
-.card p{
+
+.card p {
     color: #534C64;
     font-weight: 500;
     font-size: 1.25rem;
     text-align: center;
 }
+
 /* online game container styles ends here */
 /* play instamt section styles starts here */
-.play-instant-section{
+.play-instant-section {
     max-width: 1400px;
     margin: 0 auto;
 }
-.play-instant-container{
+
+.play-instant-container {
     margin-top: 200px;
     display: flex;
     align-items: safe;
     justify-content: space-between;
 }
-.play-instant-content{
+
+.play-instant-content {
     margin-top: 150px;
 }
-.play-instant-content h2, .online-game-anywhere-content h2{
+
+.play-instant-content h2,
+.online-game-anywhere-content h2 {
     text-align: center;
     font-weight: 700;
     font-size: 3rem;
 }
-.play-instant-content h2 span, .online-game-anywhere-content h2 span{
-    color:   #F948B2 ;
+
+.play-instant-content h2 span,
+.online-game-anywhere-content h2 span {
+    color: #F948B2;
 }
 
-.play-instant-content p, .online-game-anywhere-content p{
+.play-instant-content p,
+.online-game-anywhere-content p {
     text-align: center;
     color: #534C64;
     width: 450px;
     font-size: 1.125rem;
-    font-weight: 400px ;
+    font-weight: 400px;
 }
-.play-instant-img{
-   width: 40%;
-   margin-left: 10px;
+
+.play-instant-img {
+    width: 40%;
+    margin-left: 10px;
 }
-.main-img , .rectangle67{
+
+.main-img,
+.rectangle67 {
     width: 100%;
 }
-.small-img{
+
+.small-img {
     width: 310px;
     position: relative;
     bottom: 250px;
     right: 160px;
 }
+
 /* play instamt section styles ends here */
 /* Online game section styles starts here */
-.online-game-anywhere-section{
-max-width: 1400px;
-margin: 0 auto;
+.online-game-anywhere-section {
+    max-width: 1400px;
+    margin: 0 auto;
 }
-.online-game-anywhere-container{
+
+.online-game-anywhere-container {
     display: flex;
     justify-content: space-between;
- 
+
 }
-.online-game-anywhere-img{
+
+.online-game-anywhere-img {
     width: 55%;
 }
-.online-game-anywhere-img .rectangle78{
+
+.online-game-anywhere-img .rectangle78 {
     width: 310px;
     position: relative;
     bottom: 200px;
     left: 410px;
 }
-.online-game-anywhere-content{
- margin-top: 200px;   
+
+.online-game-anywhere-content {
+    margin-top: 200px;
 }
+
 /* Online game section styles ends here */
+/* career section styles here */
+.career-section {
+    margin-top: 40px;
+    background: #FF42A5;
+}
+
+.career-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.career-content {
+    /* text-align: center; */
+    width: 50%;
+}
+
+.career-content-header {
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.career-content p {
+    color: #FFF;
+    font-size: 1.125rem;
+    margin: 30px 0;
+    font-weight: 400;
+}
+
+.career-content-sub-para {
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-para {
+    text-align: right;
+}
+
+.career-content button {
+    padding: 21px 40px;
+    border: none;
+    font-size: 1.25rem;
+    border-radius: 48px;
+    color: #F948B2;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.career-img {
+    width: 50%;
+}
+
+.career-img img {
+    object-fit: cover;
+}
+
+/* the game banner section styles starts here */
+.the-game-banner-section {
+    max-width: 1400px;
+    margin: 40px auto;
+}
+
+.the-game-banner-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.the-game-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.the-game-card img {
+    width: 60px;
+    height: 60px;
+}
+
+.the-game-card p {
+    margin-left: 8px;
+    color: #0B0223;
+    font-weight: 600;
+    font-size: 1.125rem;
+}
+
+#third-game-card {
+    border: 1.5px solid #F948B2;
+    border-radius: 48px;
+}
+
+/* footer styles starts here */
+footer {
+    background: #0B0223;
+}
+
+.footer-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    padding: 20px;
+    text-align: center;
+}
+.footer-container p{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    font-weight: 500;
+}
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    text-align: justify;
+}
+
+.footer-content p {
+    color: #FFF;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.footer-icon {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+
+.footer-icon a {
+    color: #FFF;
+}
+
+.footer-privacy {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    gap: 12px;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    font-weight: 500;
+}

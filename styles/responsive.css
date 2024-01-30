@@ -22,12 +22,14 @@
     .simple-banner-container {
         flex-direction: column-reverse;
     }
-
-    .gamer-container , .play-instant-container, .online-game-anywhere-container{
+.online-card-container{
+    text-align: center;
+}
+    .gamer-container , .play-instant-container, .online-game-anywhere-container, .career-container{
         flex-direction: column;
     }
 
-    .gamer-img img {
+    .gamer-img img, .career-img img {
         width: 100%;
     }
 
@@ -40,7 +42,7 @@
     .play-instant-container, .play-instant-content, .online-game-anywhere-content{
         margin: 0;
     }
-    .play-instant-content h2, .online-game-anywhere-content h2, .online-game-anywhere-img{
+    .play-instant-content h2, .online-game-anywhere-content h2, .online-game-anywhere-img, .career-img{
         width: 100%;
     }
     .play-instant-content p, .online-game-anywhere-content p{
@@ -65,5 +67,13 @@
         bottom: 150px;
         left: 200px;
     }
+    .career-container{
+        padding: 20px;
+    }
+    .career-content{
+        text-align: center;
+        width: 100%;
+    }
+
 
 }

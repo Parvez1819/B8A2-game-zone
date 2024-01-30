@@ -18,7 +18,7 @@
     }
 
     .gamer-container,
-    .play-instant-container, .online-game-anywhere-container {
+    .play-instant-container, .online-game-anywhere-container ,.career-container{
         flex-direction: column;
     }
 
@@ -45,7 +45,7 @@
     }
 
     .play-instant-content p,  
-    .online-game-anywhere-content p{
+    .online-game-anywhere-content p, .career-img{
         width: 100%;
     }
 
@@ -65,5 +65,8 @@
         position: relative;
         bottom: 200px;
         left: 430px;
+    }
+    .career-img img{
+        width: 100%;
     }
 }
