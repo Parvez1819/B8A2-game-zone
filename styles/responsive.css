@@ -23,7 +23,7 @@
         flex-direction: column-reverse;
     }
 
-    .gamer-container , .play-instant-container{
+    .gamer-container , .play-instant-container, .online-game-anywhere-container{
         flex-direction: column;
     }
 
@@ -37,20 +37,20 @@
     .online-card-container{
         grid-template-columns: repeat(1,1fr);
     }
-    .play-instant-container, .play-instant-content{
+    .play-instant-container, .play-instant-content, .online-game-anywhere-content{
         margin: 0;
     }
-    .play-instant-content p{
+    .play-instant-content h2, .online-game-anywhere-content h2, .online-game-anywhere-img{
         width: 100%;
     }
-    .play-instant-content p{
+    .play-instant-content p, .online-game-anywhere-content p{
         width: 100%;
     }
     .play-instant-img{
         width: 100%;
         margin: 0;
     }
-    .play-instant-img .main-img {
+    .play-instant-img .main-img, .online-game-anywhere-img .rectangle67 {
         width: 100%;
         padding: 50px;
     }
@@ -58,6 +58,12 @@
         width: 150px;
         bottom: 150px;
         right: -2px;
+    }
+    .online-game-anywhere-img .rectangle78 {
+        width: 150px;
+        position: relative;
+        bottom: 150px;
+        left: 200px;
     }
 
 }

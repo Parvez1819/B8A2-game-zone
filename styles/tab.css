@@ -18,11 +18,11 @@
     }
 
     .gamer-container,
-    .play-instant-container {
+    .play-instant-container, .online-game-anywhere-container {
         flex-direction: column;
     }
 
-    .gamer-img img {
+    .gamer-img img ,  .online-game-anywhere-img{
         width: 100%;
     }
 
@@ -39,16 +39,17 @@
     }
 
     .play-instant-container,
-    .play-instant-content {
+    .play-instant-content, .online-game-anywhere-content {
         text-align: center;
         margin: 0%;
     }
 
-    .play-instant-content p {
+    .play-instant-content p,  
+    .online-game-anywhere-content p{
         width: 100%;
     }
 
-    .play-instant-img {
+    .play-instant-img , .online-game-anywhere-img .rectangle67 {
         width: 100%;
         padding: 80px;
         margin: 0;
@@ -58,5 +59,11 @@
         width: 230px;
         bottom: 170px;
         right: 220px;
+    }
+    .online-game-anywhere-img .rectangle78 {
+        width: 193px;
+        position: relative;
+        bottom: 200px;
+        left: 430px;
     }
 }

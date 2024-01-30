@@ -235,6 +235,7 @@ body {
     text-align: center;
 }
 /* online game container styles ends here */
+/* play instamt section styles starts here */
 .play-instant-section{
     max-width: 1400px;
     margin: 0 auto;
@@ -248,16 +249,16 @@ body {
 .play-instant-content{
     margin-top: 150px;
 }
-.play-instant-content h2{
+.play-instant-content h2, .online-game-anywhere-content h2{
     text-align: center;
     font-weight: 700;
     font-size: 3rem;
 }
-.play-instant-content h2 span{
+.play-instant-content h2 span, .online-game-anywhere-content h2 span{
     color:   #F948B2 ;
 }
 
-.play-instant-content p{
+.play-instant-content p, .online-game-anywhere-content p{
     text-align: center;
     color: #534C64;
     width: 450px;
@@ -268,7 +269,7 @@ body {
    width: 40%;
    margin-left: 10px;
 }
-.main-img{
+.main-img , .rectangle67{
     width: 100%;
 }
 .small-img{
@@ -277,3 +278,27 @@ body {
     bottom: 250px;
     right: 160px;
 }
+/* play instamt section styles ends here */
+/* Online game section styles starts here */
+.online-game-anywhere-section{
+max-width: 1400px;
+margin: 0 auto;
+}
+.online-game-anywhere-container{
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.online-game-anywhere-img{
+    width: 55%;
+}
+.online-game-anywhere-img .rectangle78{
+    width: 310px;
+    position: relative;
+    bottom: 200px;
+    left: 410px;
+}
+.online-game-anywhere-content{
+ margin-top: 200px;   
+}
+/* Online game section styles ends here */
